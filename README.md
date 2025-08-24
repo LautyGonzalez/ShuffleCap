@@ -11,7 +11,6 @@ Ideal para maratonear series donde el orden no importa (Los Simpson, Padre de fa
 - 🔀 Reproduce episodios en orden aleatorio.  
 - 🎥 Detecta automáticamente la serie y los capítulos disponibles.  
 - 🚫 Excluye trailers y contenidos sugeridos.  
-- ⚡ Navegación rápida: con un clic te lleva al capítulo elegido.  
 ---
 
 ## 📜 Licencia
