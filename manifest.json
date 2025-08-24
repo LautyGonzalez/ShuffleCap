@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "ShuffleCap",
+  "version": "2.0",
+  "description": "Botón para ver episodios aleatorios de series en Disney+",
+  "permissions": [],
+  "host_permissions": ["https://www.disneyplus.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.disneyplus.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["series_disney_normalized.json"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
